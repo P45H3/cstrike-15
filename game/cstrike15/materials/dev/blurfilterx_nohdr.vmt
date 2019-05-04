@@ -1,6 +1,0 @@
-"BlurFilterX"
-{
-	"$bloomamount" "1"
-	"$basetexture" "_rt_SmallFB0"
-	"%noToolTexture" 1
-}

@@ -1,9 +1,0 @@
-VertexLitGeneric
-{
-$baseTexture "models\weapons\w_models\w_eq_molotov/w_eq_molotov_rag"
-$nocull 1
-$detail "detail/dt_fabric2"
-$detailscale 6
-$detailblendfactor ".5"
-$detailblendmode 0
-}

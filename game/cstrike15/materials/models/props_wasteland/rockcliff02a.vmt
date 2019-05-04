@@ -1,6 +1,0 @@
-"vertexlitGeneric"
-{
-	"$basetexture" "models/props_wasteland/rockcliff02a"
-	"$model" 1
-	"$surfaceprop" "boulder"
-}

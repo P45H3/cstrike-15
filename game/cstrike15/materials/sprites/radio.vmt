@@ -1,8 +1,0 @@
-"UnlitGeneric"
-{
-	// Original shader: BaseTextureAlphaBlend
-	"$translucent" 1
-	"$basetexture" "sprites/radio"
-	"$vertexcolor" 1
-	"$ignorez" 0
-}

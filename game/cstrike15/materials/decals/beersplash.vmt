@@ -1,9 +1,0 @@
-"LightmappedGeneric"
-{
-	// Original shader: DecalBaseTimesLightmapAlphaBlend
-	"$translucent" 1
-	"$basetexture" "Decals/beersplash"
-	"$decal" 1
-	"$decalscale" 0.50
-	"$modelmaterial" "Decals/beersplashmodel"
-}

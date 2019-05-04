@@ -1,7 +1,0 @@
-"Subrect"
-{
-	"$Material"	"decals/decals_lit"
-	"$Pos"		"512 256"
-	"$Size"		"256 256"
-	"$decalscale" 	0.45
-}

@@ -1,7 +1,0 @@
-"lightmappedGeneric"
-{
-	"$baseTexture" "de_dust/residBwall03"
-	"$surfaceprop" "concrete"
-	"$bumpmap" "de_dust/residBwall03_normal"
-	"%keywords" "cstrike" 
-}

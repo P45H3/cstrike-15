@@ -1,6 +1,0 @@
-VertexLitGeneric
-{
-$basetexture "models\weapons\v_models\snip_sg550\snip_sg550"
-$envmap env_cubemap
-$envmapmask "models\weapons\v_models\snip_sg550\snip_sg550_ref"
-}

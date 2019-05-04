@@ -1,8 +1,0 @@
-"LightmappedGeneric_dx8"
-//"LightmappedGeneric"
-{
-	// Original shader: Lightmap
-	"$comparez" 0
-	"$writez" 0
-	"%noToolTexture" 1
-}
