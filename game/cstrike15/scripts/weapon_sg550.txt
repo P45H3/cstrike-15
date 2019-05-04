@@ -1,0 +1,145 @@
+WeaponData
+{
+	// particle muzzle flash effect to play when fired
+	"MuzzleFlashEffect_1stPerson"	"weapon_muzzle_flash_huntingrifle"
+	"MuzzleFlashEffect_3rdPerson"	"weapon_muzzle_flash_huntingrifle"
+	"HeatEffect"			"weapon_muzzle_smoke"
+	"HeatPerShot"               	"0.35"
+
+	// model for the shell casing to eject when we fire bullets
+	"EjectBrassEffect"		"weapon_shell_casing_rifle"
+
+	// the tracer particle effect and frequency
+	"TracerEffect"			"weapon_tracers_snipe"
+	// 0 = never, 1 = every shot, 2 = every other, etc
+	"TracerFrequency"		"0"
+
+	"MaxPlayerSpeed"		215
+	"WeaponType"			"SniperRifle"
+	"HideViewModelZoomed"	1
+	"FullAuto"				1
+	"WeaponPrice"			"4200"
+	"WeaponArmorRatio"		"1.45"
+	"CrosshairMinDistance"		"5"
+	"CrosshairDeltaDistance"	"3"
+	"Team"				"CT"
+	"BuiltRightHanded"		"0"
+	"PlayerAnimationExtension"	"sg550"
+
+	"CanEquipWithShield"		"0"
+	
+	// Weapon characteristics:
+	"Penetration"			"2"
+	"Damage"			"70"
+	"Range"				"8192"
+	"RangeModifier"			"0.98"
+	"Bullets"			"1"
+	"CycleTime"			"0.25"
+	"TimeToIdle"			"1.8"
+	"IdleInterval"			"60"
+	FlinchVelocityModifierLarge		0.35
+	FlinchVelocityModifierSmall		0.40
+
+	// accuracy model parameters
+	"Spread"					0.30
+	"InaccuracyCrouch"			19.28
+	"InaccuracyStand"			25.70
+	"InaccuracyJump"			0.820
+	"InaccuracyLand"			0.246
+	"InaccuracyLadder"			109.32
+	"InaccuracyFire"			16.82
+	"InaccuracyMove"			124.93
+								 
+	"SpreadAlt"					0.30
+	"InaccuracyCrouchAlt"		1.50
+	"InaccuracyStandAlt"		2.00
+	"InaccuracyJumpAlt"			0.820
+	"InaccuracyLandAlt"			0.246
+	"InaccuracyLadderAlt"		109.32
+	"InaccuracyFireAlt"			16.82
+	"InaccuracyMoveAlt"			124.93
+								 
+	"RecoveryTimeCrouch"		0.368414
+	"RecoveryTimeStand"			0.515779
+
+	//old"RecoilAngle"					0.0
+	"RecoilAngle"					0.0
+	"RecoilAngleVariance"			45.0
+	"RecoilMagnitude"				1.0
+	"RecoilMagnitudeVariance"		0.25
+	
+	//old"RecoilAngleAlt"				0.0
+	"RecoilAngleAlt"					0.0
+	"RecoilAngleVarianceAlt"		45.0
+	"RecoilMagnitudeAlt"			1.0
+	"RecoilMagnitudeVarianceAlt"	0.25
+								 
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#SFUI_WPNHUD_SG550"
+	"viewmodel"			"models/weapons/v_snip_sg550.mdl"
+	"playermodel"			"models/weapons/w_snip_sg550.mdl"
+	
+	"anim_prefix"			"anim"
+	"bucket"			"0"
+	"bucket_position"		"0"
+
+	"clip_size"			"30"
+	
+	"primary_ammo"			"BULLET_PLAYER_556MM"
+	"secondary_ammo"		"None"
+
+	"weight"			"20"
+	"item_flags"			"0"
+	
+	"rumble"			"4"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"reload"			"Weapon_AWP.Reload"
+		//"empty"				"Default.ClipEmpty_Rifle"
+		"single_shot"		"Weapon_SG550.Single"
+		special3			Default.Zoom
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"CSweaponsSmall"
+				"character"	"O"
+		}
+		"weapon_s"
+		{	
+				"font"		"CSweapons"
+				"character"	"O"
+		}
+		"ammo"
+		{
+				"font"		"CSTypeDeath"
+				"character"		"N"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-3 -3 -12"
+			Maxs	"40 14 -1"
+		}
+		World
+		{
+			Mins	"-7 -8 -3"
+			Maxs	"32 9 9"
+		}
+	}
+}

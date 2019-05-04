@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$decal" 1
+	"$basetexture" "Decals/decal_paintsplatterpink001"
+	"$decalscale" 0.25
+	"$translucent" 1
+	"$modelmaterial" "Decals/decal_paintsplatterpink_model"
+}
+
+

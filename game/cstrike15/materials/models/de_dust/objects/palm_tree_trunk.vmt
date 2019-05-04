@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/de_dust/objects/palm_tree_trunk"
+	"$surfaceprop" "wood"
+//	"$bumpmap" "models/de_dust/objects/palm_tree_trunk_normal"
+}

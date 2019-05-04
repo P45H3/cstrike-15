@@ -1,0 +1,11 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_dust/door05"
+	"$surfaceprop" "wood"
+//	"$bumpmap" "de_dust/door05_normal"
+//	"$envmap" "env_cubemap"
+	"%keywords" "cstrike" 
+//	"$envmapcontrast" 1
+//	"$envmapsaturation" 1
+//	"$envmaptint" "[ .75 .75 .75]"
+}

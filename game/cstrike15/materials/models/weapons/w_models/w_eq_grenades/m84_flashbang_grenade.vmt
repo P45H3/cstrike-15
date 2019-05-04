@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+$baseTexture "models\weapons\v_models\eq_grenades/m84_flashbang_grenade"
+$GRADIENTTEXTURE "models\weapons\v_models\eq_grenades\m84_flashbang_gradiant"
+$phongtint "[1 1 1]"
+$phongfresnelranges "[1 1 1]"
+$phongboost 1
+$DEFAULTPHONGEXPONENT 15
+}

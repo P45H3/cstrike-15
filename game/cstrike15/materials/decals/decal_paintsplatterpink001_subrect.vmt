@@ -1,0 +1,8 @@
+"Subrect"
+{
+	"$Material"	"decals/decals_lit"
+	"$Pos"		"256 256"
+	"$Size"		"256 256"
+	"$decalscale" 	0.25
+	"$modelmaterial" "Decals/decal_paintsplatterpink_model"
+}

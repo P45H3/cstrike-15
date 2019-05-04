@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/de_dust/doors/door_temple_entrance"
+	"$surfaceprop" "rock"
+//	"$bumpmap" "models/de_dust/doors/door_temple_entrance_normal"
+}

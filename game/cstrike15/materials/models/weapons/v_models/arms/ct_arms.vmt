@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+$baseTexture "models/weapons/v_models/arms/ct_arms"
+$bumpMap "models/weapons/v_models/arms/ct_arms_normal"
+$phong 1
+$phongBoost 50
+$phongExponent 75
+$phongTint "[1 1 1.5]"
+$phongFresnelRanges "[0 .1 1]"
+$phongdisablehalflambert 1
+
+
+
+}

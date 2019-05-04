@@ -1,0 +1,10 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_dust/tilefloor02"
+	"$surfaceprop" "tile"
+	"$bumpmap" "de_dust/tilefloor02_normal"
+	"$envmap" "env_cubemap"
+	"$envmapsaturation" "[.0001 .0001 .0001]"
+	"%keywords" "cstrike" 
+	"$normalmapalphaenvmapmask" 1
+}

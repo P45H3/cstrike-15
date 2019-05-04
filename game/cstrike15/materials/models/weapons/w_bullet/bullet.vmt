@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+//	"$baseTexture" "Models/Weapons/w_bullet/bullet"
+	"$envmap" "env_cubemap"
+	"$envmapsaturation" .1
+	"$envmapcontrast" 1
+	"$normalmapalphaenvmapmask" 1
+
+
+}

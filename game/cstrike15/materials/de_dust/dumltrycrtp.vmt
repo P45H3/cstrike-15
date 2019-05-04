@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_dust/duMltryCrTp"
+	"$surfaceprop" "metal"
+	"$detail" "detail/dt_metal1" 
+}

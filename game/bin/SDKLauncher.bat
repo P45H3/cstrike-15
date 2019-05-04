@@ -1,0 +1,1 @@
+SDKLauncher.exe -game "..\cstrike"

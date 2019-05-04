@@ -1,0 +1,142 @@
+"Music.StartRound"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+"Music.CT.StartRound"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+"Music.BombPlanted"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+"Music.CT.BombPlanted"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+"Music.BombBeingDiffused"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+"Music.CT.BombBeingDiffused"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+"Music.BombDiffused"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+"Music.CT.BombDiffused"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+
+"Music.TenSecCount"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+"Music.CT.TenSecCount"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+
+"Music.LostRound"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+"Music.CT.LostRound"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+"Music.WonRound"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}
+"Music.CT.WonRound"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"  	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"wave"	"common/beep.wav"
+
+}

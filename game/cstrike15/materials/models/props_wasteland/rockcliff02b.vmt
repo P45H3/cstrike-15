@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "nature/rockwall011f"
+	"$model" 1
+	"$surfaceprop" "boulder"
+	"$basealphaenvmapmask" 1
+}

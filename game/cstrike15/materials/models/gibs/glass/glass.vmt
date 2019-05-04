@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	// Original shader: TranslucentSpecularSphericalEnvMap
+	//"$additive" 1
+	//"$envmap" "models/Gibs/glass/glass"
+	"$envmap" "env_cubemap"
+	"$model" 1
+}

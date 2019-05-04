@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/flamelet4"
+	"$additive" 1
+	"$vertexcolor" 1
+}

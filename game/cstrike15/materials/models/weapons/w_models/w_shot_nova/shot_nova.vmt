@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\weapons\v_models\shot_nova\shot_nova"
+}

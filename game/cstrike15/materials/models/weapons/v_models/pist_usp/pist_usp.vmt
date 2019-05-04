@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+$basetexture "models\weapons\v_models\pist_usp\pist_usp"
+$envmap env_cubemap
+$envmapmask "models\weapons\v_models\pist_usp\pist_usp_ref"
+}

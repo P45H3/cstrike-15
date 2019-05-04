@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\weapons\v_models\pist_hkp2000\pist_hkp2000"
+}

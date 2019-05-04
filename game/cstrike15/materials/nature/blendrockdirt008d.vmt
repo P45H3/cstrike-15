@@ -1,0 +1,24 @@
+//"WorldVertexTransition"
+//{
+//	"$basetexture" "nature/cliffface001a"
+//	"$basetexture2" "nature/dirtfloor012a"
+	
+//	"%tooltexture" "nature/blendrockdirt007d_tooltexture"
+	
+//       "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+//        "$basetexturetransform2" "center .5 .5 scale 2 2 rotate 0 translate 0 0"
+
+//	"%detailtype" "rocks1"
+//	"$surfaceprop" "dirt"
+//	"%keywords" "coastline"
+//}
+
+
+//Coast bumpmap upgrade. Please excuse the hackiness.
+"LightmappedGeneric"
+{
+	"$basetexture" "Nature/cliffface001a"
+	"$surfaceprop" "dirt"
+        "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	"$bumpmap" "Nature/cliffface001a_normal"
+}

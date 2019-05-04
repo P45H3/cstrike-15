@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\weapons\v_models\pist_deagle/pist_deagle_ref"
+}

@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$basetexture" "Decals/decal_birdpoop001"
+	"$decal" 1
+	"$decalscale" 0.25
+	"%keywords" "c17downtown"
+}

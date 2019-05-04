@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/de_dust/doors/door01"
+	"$surfaceprop" "rock"
+//	"$bumpmap" "models/de_dust/doors/door01_normal"
+}

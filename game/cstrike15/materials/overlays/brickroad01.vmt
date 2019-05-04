@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "overlays/brickroad01"
+	"$translucent" 1
+	"$decal" 1
+	"$surfaceprop" "sand"
+	"%keywords" "cstrike"
+}

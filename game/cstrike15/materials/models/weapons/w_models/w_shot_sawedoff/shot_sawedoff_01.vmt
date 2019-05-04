@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\weapons\v_models\shot_sawedoff/shot_sawedoff_01"
+}

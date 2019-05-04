@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	// Original shader: DecalBaseTimesLightmapAlphaBlend
+	"$translucent" 1
+	"$basetexture" "Decals/bigshot2"
+	"$decal" 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" 	"vgui/screens/c4panel_bg"
+	"$vertexcolor"		1
+	"$ignorez"		1
+}

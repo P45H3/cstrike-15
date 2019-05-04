@@ -1,0 +1,811 @@
+detail
+{
+	prodgrasses
+	{
+		"density" "1000.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props/de_prodigy/prodgrassa.mdl"
+				"amount" "1"
+			}
+
+		}
+		
+		Group2
+		{
+			"alpha" "0.0"
+
+		}
+	}
+
+
+	compound_gravelgrass
+	{
+		"density" "500.0"
+
+		Group1
+		{
+	
+			"alpha" "1.0"
+		}
+		Group2
+		{
+	
+			"alpha" "0.75"
+		}
+		Group2a
+		{
+	
+			"alpha" "0.35"
+			Model1
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 15 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.7"
+				"detailOrientation" "2"
+			}
+		}
+		Group3
+		{
+	
+			"alpha" "0.2"
+			Model1
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 20 35"
+				"spriterandomscale" "0.2"
+				"amount" "0.7"
+				"detailOrientation" "2"
+			}
+		}
+		Group4
+		{
+			"alpha" "0.0"
+			Model1
+			{
+				"sprite" "0 0 128 128 512" 
+				"spritesize" "0.5 0.0 40 45"
+				"spriterandomscale" "0.1"
+				"amount" "0.6"
+				"detailOrientation" "2"
+			}
+		}
+	}
+
+	desert_2weeds1shrub_01
+	{
+		"density" "500.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+		}
+		Group2
+
+		{
+			"alpha" "0.25"
+		}
+
+		Group2a
+		{
+			"alpha" "0.15"
+			
+			Model1
+			{
+				"sprite" "288 0 128 128 512"
+				"spritesize" "0.5 0.0 15 25"
+				"spriterandomscale" "0.2"
+				"amount" "0.7"
+				"detailOrientation" "2"
+			}
+		}
+
+		Group3
+		{
+	
+			"alpha" "0.1"
+
+			Model1
+			{
+				"sprite" "288 0 128 128 512" 
+				"spritesize" "0.5 0.0 20 35"
+				"spriterandomscale" "0.2"
+				"amount" "0.6"
+				"detailOrientation" "2"
+			}
+
+			"alpha" "0.1"
+
+			Model2
+			{
+				"sprite" "144 144 128 128 512" 
+				"spritesize" "0.5 0.0 20 35"
+				"spriterandomscale" "0.2"
+				"amount" "0.6"
+				"detailOrientation" "2"
+			}
+
+		}
+
+		Group4
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+				"sprite" "288 144 128 128 512" 
+				"spritesize" "0.5 0.0 40 45"
+				"spriterandomscale" "0.1"
+				"amount" "0.2"
+				"detailOrientation" "2"
+			}
+		}
+	}
+
+	militia_sand_grass
+	{
+		"density" "800.0" //how often they appear inside material
+		
+		Group1
+		{
+			"alpha" "0.0"
+		}
+		Group2
+		{
+			"alpha" "0.9"
+		}
+		Group3
+		{
+			"alpha" "1.0"
+			
+			Model1 //California Poppy
+			{
+				"sprite_shape"		"tri"
+				"sprite" 		"512 0 256 256 1024" //start at 0,0...128,128 is size of box in material, 1024 is material size
+				"spritesize"		"0.55 0.03 22 22" //last two numbers are world size of sprite
+				"spriterandomscale"	"0.2" //randomness of sprite sizes
+				"amount" 		"0.05" //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation" 	"0" //1 faces player. 0 would not rotate. 2 faces camera.
+				"shape_angle"		"20" //degrees of tip/flare
+				"shape_size"		"0" //0-1 percent of sprite width to separate each leaf
+				"sway"			"0.4" //0-1. 0 doesn't sway much, 1 sways a lot
+			}
+			
+			Model4 //Grass A
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"640 256 128 128 1024"
+				"spritesize"		"0.5 0 12 12"
+				"spriterandomscale"	"0.05"
+				"amount" 		"0.3"
+				"detailOrientation" 	"0"
+				"shape_angle"		"40"
+				"shape_size"		"0.01"
+				"sway"			"0.1"
+			}
+
+			Model5 //Grass B
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"640 384 128 128 1024"
+				"spritesize"		"0.5 0 12 12"
+				"spriterandomscale"	"0.05"
+				"amount" 		"0.25"
+				"detailOrientation"	"0"
+				"shape_angle"		"40"
+				"shape_size"		"0.01"
+				"sway"			"0.1"
+			}
+
+			Model7 //Stick Weed
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"512 512 218 256 1024"
+				"spritesize"		"0.42 0 30 36     "
+				"spriterandomscale"	"0.1"
+				"amount"		"0.1"
+				"detailOrientation"	"0"
+				"sway"			"0.5"
+			}
+
+			Model9 //Fluffy Weed
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"512 768 172 256 1024"
+				"spritesize"		"0.44 0 24 36"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.1"
+				"detailOrientation"	"0"
+				"sway"			"0.5"
+			}
+
+			Model10 //Fluffy Top Grass
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"684 768 137 256 1024"
+				"spritesize"		"0.52 0 11 21"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.05"
+				"detailOrientation"	"0"
+				"sway"			"0.1"
+			}
+			
+
+
+			Model11 //Leafy Weed Cluster
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"821 768 203 256 1024"
+				"spritesize"		"0.44 0 25 32"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.15"
+				"detailOrientation"	"0"
+				"shape_angle"		"10"
+				"shape_size"		"0"
+				"sway"			"0.5"
+			}
+		}
+	}
+
+	militia_leaves_grass
+	{
+		"density" "300.0" //how often they appear inside material
+		
+		Group1
+		{
+			"alpha" "1.0"
+			Model1 //California Poppy
+			{
+				"sprite_shape"		"tri"
+				"sprite" 		"512 0 256 256 1024" //start at 0,0...128,128 is size of box in material, 1024 is material size
+				"spritesize"		"0.55 0.03 22 22" //last two numbers are world size of sprite
+				"spriterandomscale"	"0.2" //randomness of sprite sizes
+				"amount" 		"0.05" //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation" 	"0" //1 faces player. 0 would not rotate. 2 faces camera.
+				"shape_angle"		"20" //degrees of tip/flare
+				"shape_size"		"0" //0-1 percent of sprite width to separate each leaf
+				"sway"			"0.4" //0-1. 0 doesn't sway much, 1 sways a lot
+			}
+			
+			Model4 //Grass A
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"640 256 128 128 1024"
+				"spritesize"		"0.5 0 12 12"
+				"spriterandomscale"	"0.05"
+				"amount" 		"0.3"
+				"detailOrientation" 	"0"
+				"shape_angle"		"40"
+				"shape_size"		"0.01"
+				"sway"			"0.1"
+			}
+
+			Model5 //Grass B
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"640 384 128 128 1024"
+				"spritesize"		"0.5 0 12 12"
+				"spriterandomscale"	"0.05"
+				"amount" 		"0.25"
+				"detailOrientation"	"0"
+				"shape_angle"		"40"
+				"shape_size"		"0.01"
+				"sway"			"0.1"
+			}
+
+			Model7 //Stick Weed
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"512 512 218 256 1024"
+				"spritesize"		"0.42 0 30 36     "
+				"spriterandomscale"	"0.1"
+				"amount"		"0.1"
+				"detailOrientation"	"0"
+				"sway"			"0.5"
+			}
+
+			Model9 //Fluffy Weed
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"512 768 172 256 1024"
+				"spritesize"		"0.44 0 24 36"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.1"
+				"detailOrientation"	"0"
+				"sway"			"0.5"
+			}
+
+			Model10 //Fluffy Top Grass
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"684 768 137 256 1024"
+				"spritesize"		"0.52 0 11 21"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.05"
+				"detailOrientation"	"0"
+				"sway"			"0.1"
+			}
+			
+
+
+			Model11 //Leafy Weed Cluster
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"821 768 203 256 1024"
+				"spritesize"		"0.44 0 25 32"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.15"
+				"detailOrientation"	"0"
+				"shape_angle"		"10"
+				"shape_size"		"0"
+				"sway"			"0.5"
+			}
+
+		}
+		
+		Group2
+		{
+			"alpha" "0.0"
+			
+			Model8 //Pineapple Sage
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"730 512 294 256 1024"
+				"spritesize"		"0.36 0.09 36 32"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.15"
+				"detailOrientation"	"0"
+				"shape_angle"		"10"
+				"shape_size"		"0"
+				"sway"			"0.2"
+			}
+
+			Model6 // Small Shrub
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"768 256 256 160 1024"
+				"spritesize"		"0.5 0 30 28"
+				"spriterandomscale"	"0.1"
+				"amount" 		"0.15"
+				"detailOrientation" 	"0"
+				"shape_angle"		"10"
+				"shape_size"		".1"
+				"sway"			"0.1"
+			}
+
+			Model11 //Leafy Weed Cluster
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"821 768 203 256 1024"
+				"spritesize"		"0.5 0 25 32"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.3"
+				"detailOrientation"	"0"
+				"shape_angle"		"10"
+				"shape_size"		"0"
+				"sway"			"0.5"
+			}
+
+			Model2 //Fern Leaf
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"768 0 256 256 1024"
+				"spritesize"		"0.47 0 18 18"
+				"spriterandomscale"	"0.1"
+				"amount" 		"0.25"
+				"detailOrientation" 	"0"
+				"shape_angle"		"70" 
+				"shape_size"		"0.0"
+				"sway"			"0.1"
+			}
+			
+			Model3 //Skinny Leafy Weed
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"512 256 128 256 1024"
+				"spritesize"		"0.44 0 16 32"
+				"spriterandomscale"	"0.1"
+				"amount" 		"0.15"
+				"detailOrientation" 	"0"
+				"shape_angle"		"15" 
+				"shape_size"		"0.1"
+				"sway"			"0.5"
+			}
+
+		}
+
+	}
+
+	militia_darkleaves_grass
+	{
+		"density" "800.0" //how often they appear inside material
+		
+		Group1
+		{
+			"alpha" "1.0"
+			Model1 //California Poppy
+			{
+				"sprite_shape"		"tri"
+				"sprite" 		"512 0 256 256 1024" //start at 0,0...128,128 is size of box in material, 1024 is material size
+				"spritesize"		"0.55 0.03 22 22" //last two numbers are world size of sprite
+				"spriterandomscale"	"0.2" //randomness of sprite sizes
+				"amount" 		"0.05" //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+				"detailOrientation" 	"0" //1 faces player. 0 would not rotate. 2 faces camera.
+				"shape_angle"		"20" //degrees of tip/flare
+				"shape_size"		"0" //0-1 percent of sprite width to separate each leaf
+				"sway"			"0.4" //0-1. 0 doesn't sway much, 1 sways a lot
+			}
+			
+			Model4 //Grass A
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"640 256 128 128 1024"
+				"spritesize"		"0.5 0 12 12"
+				"spriterandomscale"	"0.05"
+				"amount" 		"0.3"
+				"detailOrientation" 	"0"
+				"shape_angle"		"40"
+				"shape_size"		"0.01"
+				"sway"			"0.1"
+			}
+
+			Model5 //Grass B
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"640 384 128 128 1024"
+				"spritesize"		"0.5 0 12 12"
+				"spriterandomscale"	"0.05"
+				"amount" 		"0.25"
+				"detailOrientation"	"0"
+				"shape_angle"		"40"
+				"shape_size"		"0.01"
+				"sway"			"0.1"
+			}
+
+			Model7 //Stick Weed
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"512 512 218 256 1024"
+				"spritesize"		"0.42 0 30 36     "
+				"spriterandomscale"	"0.1"
+				"amount"		"0.1"
+				"detailOrientation"	"0"
+				"sway"			"0.5"
+			}
+
+			Model9 //Fluffy Weed
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"512 768 172 256 1024"
+				"spritesize"		"0.44 0 24 36"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.1"
+				"detailOrientation"	"0"
+				"sway"			"0.5"
+			}
+
+			Model10 //Fluffy Top Grass
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"684 768 137 256 1024"
+				"spritesize"		"0.52 0 11 21"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.05"
+				"detailOrientation"	"0"
+				"sway"			"0.2"
+			}
+			
+
+
+			Model11 //Leafy Weed Cluster
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"821 768 203 256 1024"
+				"spritesize"		"0.44 0 25 32"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.15"
+				"detailOrientation"	"0"
+				"shape_angle"		"10"
+				"shape_size"		"0"
+				"sway"			"0.5"
+			}
+		}
+		Group2
+		{
+			"alpha" "0.0"
+
+			Model11 //Leafy Weed Cluster
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"821 768 203 256 1024"
+				"spritesize"		"0.5 0 25 32"
+				"spriterandomscale"	"0.4"
+				"amount"		"0.1"
+				"detailOrientation"	"0"
+				"shape_angle"		"10"
+				"shape_size"		"0"
+				"sway"			"0.5"
+			}
+
+			Model2 //Fern Leaf
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"768 0 256 256 1024"
+				"spritesize"		"0.47 0 18 18"
+				"spriterandomscale"	"0.1"
+				"amount" 		"0.1"
+				"detailOrientation" 	"0"
+				"shape_angle"		"70" 
+				"shape_size"		"0.0"
+				"sway"			"0.1"
+			}
+			
+			Model3 //Skinny Leafy Weed
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"512 256 128 256 1024"
+				"spritesize"		"0.44 0 16 32"
+				"spriterandomscale"	"0.1"
+				"amount" 		"0.1"
+				"detailOrientation" 	"0"
+				"shape_angle"		"15" 
+				"shape_size"		"0.1"
+				"sway"			"0.5"
+			}
+		}
+	}
+
+	militia_rock_grass
+	{
+		"density" "800.0" //how often they appear inside material
+		
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model4 //Grass A
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"640 256 128 128 1024"
+				"spritesize"		"0.5 0 12 12"
+				"spriterandomscale"	"0.05"
+				"amount" 		"0.4"
+				"detailOrientation" 	"0"
+				"shape_angle"		"40"
+				"shape_size"		"0.01"
+				"sway"			"0.1"
+			}
+
+			Model5 //Grass B
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"640 384 128 128 1024"
+				"spritesize"		"0.5 0 12 12"
+				"spriterandomscale"	"0.05"
+				"amount" 		"0.4"
+				"detailOrientation"	"0"
+				"shape_angle"		"40"
+				"shape_size"		"0.01"
+				"sway"			"0.1"
+			}
+
+			Model7 //Stick Weed
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"512 512 218 256 1024"
+				"spritesize"		"0.42 0 30 36     "
+				"spriterandomscale"	"0.1"
+				"amount"		"0.05"
+				"detailOrientation"	"0"
+				"sway"			"0.5"
+			}
+
+			Model9 //Fluffy Weed
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"512 768 172 256 1024"
+				"spritesize"		"0.44 0 24 36"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.05"
+				"detailOrientation"	"0"
+				"sway"			"0.2"
+			}
+
+			Model11 //Leafy Weed Cluster
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"821 768 203 256 1024"
+				"spritesize"		"0.44 0 25 32"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.1"
+				"detailOrientation"	"0"
+				"shape_angle"		"10"
+				"shape_size"		"0"
+				"sway"			"0.5"
+			}
+		}
+		
+		Group2
+		{
+			"alpha" "0.0"
+		}
+	}
+
+	militia_leaves_darkleaves
+	{
+		"density" "200.0" //how often they appear inside material
+		
+		Group1
+		{
+			"alpha" "1.0"
+		}
+		
+		Group2
+		{
+			"alpha" "0.0"
+			
+			Model8 //Pineapple Sage
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"730 512 294 256 1024"
+				"spritesize"		"0.36 0.09 36 32"
+				"spriterandomscale"	"0.1"
+				"amount"		"0.15"
+				"detailOrientation"	"0"
+				"shape_angle"		"10"
+				"shape_size"		"0"
+				"sway"			"0.1"
+			}
+
+			Model6 // Small Shrub
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"768 256 256 160 1024"
+				"spritesize"		"0.5 0 51 32"
+				"spriterandomscale"	"0.1"
+				"amount" 		"0.25"
+				"detailOrientation" 	"0"
+				"shape_angle"		"10"
+				"shape_size"		"0"
+				"sway"			"0.1"
+			}
+
+			Model11 //Leafy Weed Cluster
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"821 768 203 256 1024"
+				"spritesize"		"0.5 0 25 32"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.25"
+				"detailOrientation"	"0"
+				"shape_angle"		"10"
+				"shape_size"		"0"
+				"sway"			"0.5"
+			}
+
+			Model2 //Fern Leaf
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"768 0 256 256 1024"
+				"spritesize"		"0.47 0 18 18"
+				"spriterandomscale"	"0.1"
+				"amount" 		"0.25"
+				"detailOrientation" 	"0"
+				"shape_angle"		"70" 
+				"shape_size"		"0.0"
+				"sway"			"0.1"
+			}
+			
+			Model3 //Skinny Leafy Weed
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"512 256 128 256 1024"
+				"spritesize"		"0.44 0 16 32"
+				"spriterandomscale"	"0.1"
+				"amount" 		"0.1"
+				"detailOrientation" 	"0"
+				"shape_angle"		"15" 
+				"shape_size"		"0.1"
+				"sway"			"0.5"
+			}
+		}
+	}
+
+	militia_leaves_sand
+	{
+		"density" "200.0" //how often they appear inside material
+		
+		Group1
+		{
+			"alpha" "1.0"
+		}
+		Group2
+		{
+			"alpha" "0.2"
+		}
+		Group3
+		{
+			"alpha" "0.0"
+
+			Model11 //Leafy Weed Cluster
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"821 768 203 256 1024"
+				"spritesize"		"0.5 0 25 32"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.4"
+				"detailOrientation"	"0"
+				"shape_angle"		"10"
+				"shape_size"		"0"
+				"sway"			"0.5"
+			}
+
+			Model5 //Grass B
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"640 384 128 128 1024"
+				"spritesize"		"0.5 0 12 12"
+				"spriterandomscale"	"0.2"
+				"amount" 		"0.2"
+				"detailOrientation"	"0"
+				"shape_angle"		"40"
+				"shape_size"		"0.01"
+				"sway"			"0.2"
+			}
+
+			Model9 //Fluffy Weed
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"512 768 172 256 1024"
+				"spritesize"		"0.44 0 24 36"
+				"spriterandomscale"	"0.2"
+				"amount"		"0.3"
+				"detailOrientation"	"0"
+				"sway"			"0.2"
+			}
+			
+			Model3 //Skinny Leafy Weed
+			{
+				"sprite_shape"		"tri"
+				"sprite"		"512 256 128 256 1024"
+				"spritesize"		"0.44 0 16 32"
+				"spriterandomscale"	"0.1"
+				"amount" 		"0.1"
+				"detailOrientation" 	"0"
+				"shape_angle"		"15" 
+				"shape_size"		"0.1"
+				"sway"			"0.5"
+			}
+		}
+	}
+
+
+	militia_cattails
+	{
+		"density" "600.0" //how often they appear inside material
+		
+		Group1
+		{
+			"alpha" "1.0"
+			Model1 //Cattails
+			{
+				"sprite_shape"		"cross"
+				"sprite"		"320 0 192 256 1024"
+				"spritesize"		"0.35 0 45 60z"
+				"spriterandomscale"	"0.1"
+				"amount"		"1"
+				"detailOrientation"	"0"
+				"shape_angle"		"10"
+				"shape_size"		"0"
+				"sway"			"0.5"
+			}
+
+		}
+	}
+}

@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "de_dust/rockwall01"
+	"$basetexture2" "de_dust/groundsand03a"
+	"$surfaceprop" "concrete"
+	"%keywords" "cstrike" 
+}

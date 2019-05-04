@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+$phongdisablehalflambert 1
+$baseTexture "models/weapons/v_models/c4/ied_02"
+$bumpMap "models/weapons/v_models/c4/ied_02_normal"
+$phong 1
+$phongBoost 1
+$phongExponent 10
+$phongTint "[1 1 1]"
+$phongFresnelRanges "[.4 .8 1]"
+}

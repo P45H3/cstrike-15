@@ -1,0 +1,10 @@
+UnlitGeneric
+{
+
+
+
+$basetexture "console/background01_widescreen"
+$vertexcolor 1
+$no_fullbright 1
+$ignorez 1
+}

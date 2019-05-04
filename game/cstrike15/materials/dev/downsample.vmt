@@ -1,0 +1,5 @@
+"Downsample"
+{
+	"$BASETEXTURE" "_rt_FullFrameFB"
+	"%noToolTexture" 1
+}

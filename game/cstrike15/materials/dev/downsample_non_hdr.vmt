@@ -1,0 +1,5 @@
+"Downsample_nohdr"
+{
+	"$basetexture" "_rt_FullFrameFB"
+	"%noToolTexture" 1
+}

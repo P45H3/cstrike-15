@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$translucent" 1
+	"$basetexture" "Decals\win_rectang02"
+	"$decal" 1
+	"$decalscale" 0.25
+	"%keywords" "cstrike"
+}

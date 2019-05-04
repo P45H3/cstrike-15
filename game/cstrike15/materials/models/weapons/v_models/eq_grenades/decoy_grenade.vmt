@@ -1,0 +1,4 @@
+VertexLitGeneric
+{
+$baseTexture "models\weapons\v_models\eq_grenades/decoy_grenade"
+}

@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/de_dust/windows/window_6x10_arch"
+	"$surfaceprop" "rock"
+//	"$bumpmap" "models/de_dust/windows/window_6x10_arch_normal"
+}

@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_dust/dutile9"
+	"$surfaceprop" "tile"
+	"$detail" "detail/dt_stone1" 
+}

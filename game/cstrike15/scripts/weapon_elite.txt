@@ -1,0 +1,150 @@
+WeaponData
+{
+	// particle muzzle flash effect to play when fired
+	"MuzzleFlashEffect_1stPerson"	"weapon_muzzle_flash_pistol_elite_FP"
+	"MuzzleFlashEffect_3rdPerson"	"weapon_muzzle_flash_pistol_elite"
+	"HeatEffect"					"weapon_muzzle_smoke"
+	"HeatPerShot"	                "0.5"
+
+	// model for the shell casing to eject when we fire bullets
+	"EjectBrassEffect"		"weapon_shell_casing_9mm"
+
+		// the tracer particle effect and frequency
+	"TracerEffect"			"weapon_tracers_pistol"
+	// 0 = never, 1 = every shot, 2 = every other, etc
+	"TracerFrequency"		"0"
+
+	"MaxPlayerSpeed"		240
+	"WeaponType" 			"Pistol"
+	"FullAuto"				0
+	"WeaponPrice" 			"700"
+	// OLD "WeaponArmorRatio" 		"1.05"
+	"WeaponArmorRatio" 		"1.15"
+	"CrosshairMinDistance" 		"4"
+	"CrosshairDeltaDistance" 	"3"
+	"Team" 				"ANY"
+	"BuiltRightHanded"		"1"
+	"PlayerAnimationExtension" 	"elites"
+	
+	"CanEquipWithShield"		"0"
+	
+	// Weapon characteristics:
+	"Penetration"			"1"
+	"Damage"			"45"
+	"Range"				"4096"
+	"RangeModifier"			"0.75"
+	"Bullets"			"1"
+	"CycleTime"			"0.075"
+	FlinchVelocityModifierLarge		0.50
+	FlinchVelocityModifierSmall		0.65
+	
+	// accuracy model parameters
+	"Spread"					2.00
+	"InaccuracyCrouch"			7.50
+	"InaccuracyStand"			10.00
+	"InaccuracyJump"			0.849
+	"InaccuracyLand"			0.255
+	"InaccuracyLadder"			12.75
+	"InaccuracyFire"			15.95
+	"InaccuracyMove"			17.85
+
+	"SpreadAlt"					2.00
+	"InaccuracyCrouchAlt"		7.50
+	"InaccuracyStandAlt"		10.00
+	"InaccuracyJumpAlt"			0.849
+	"InaccuracyLandAlt"			0.255
+	"InaccuracyLadderAlt"		12.75
+	"InaccuracyFireAlt"			15.95
+	"InaccuracyMoveAlt"			17.85
+								 
+	"RecoveryTimeCrouch"		0.437491
+	"RecoveryTimeStand"			0.524989
+	
+	//old"RecoilAngle"					0.0
+	"RecoilAngle" 				0.0
+	"RecoilAngleVariance"			15.0
+	"RecoilMagnitude"				2.0
+	"RecoilMagnitudeVariance"		0.5
+	
+	//old"RecoilAngleAlt"				0.0
+	"RecoilAngleAlt"				0.0
+	"RecoilAngleVarianceAlt"		15.0
+	"RecoilMagnitudeAlt"			2.0
+	"RecoilMagnitudeVarianceAlt"	0.5
+								 
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#SFUI_WPNHUD_Elites"
+	"viewmodel"			"models/weapons/v_pist_elite.mdl"
+	"playermodel"			"models/weapons/w_pist_elite.mdl"
+	"AddonModel"			"models/weapons/w_pist_elite_single.mdl"
+	"DroppedModel"			"models/weapons/w_pist_elite_dropped.mdl"
+
+	"anim_prefix"			"anim"
+	"bucket"			"1"
+	"bucket_position"		"1"
+
+	"clip_size"			"30"
+	
+	"primary_ammo"			"BULLET_PLAYER_9MM"
+	"secondary_ammo"		"None"
+
+	"weight"			"5"
+	"item_flags"			"0"
+	
+	"rumble"			"1"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_Elite.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"CSweaponsSmall"
+				"character"	"S"
+		}
+		"weapon_s"
+		{	
+				"font"		"CSweapons"
+				"character"	"S"
+		}
+		"ammo"
+		{
+				"font"		"CSTypeDeath"
+				"character"		"R"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs"
+				"x"			"0"
+				"y"			"48"
+				"width"		"24"
+				"height"	"24"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-3 -12 -12"
+			Maxs	"18 11 2"
+		}
+		World
+		{
+			Mins	"-1 -7 -4"
+			Maxs	"12 9 5"
+		}
+	}
+}

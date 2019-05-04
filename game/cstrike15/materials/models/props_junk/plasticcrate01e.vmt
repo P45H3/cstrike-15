@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Models/props_junk/PlasticCrate01e"
+	"$surfaceprop" "wood"
+        "$alphatest" 1
+}
+
+

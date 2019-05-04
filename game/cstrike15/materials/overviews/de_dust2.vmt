@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$translucent" "1"
+	"$basetexture" "overviews/de_dust2"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$no_fullbright" "1"
+	"$ignorez" "1"
+}

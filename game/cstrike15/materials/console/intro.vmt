@@ -1,0 +1,10 @@
+UnlitGeneric
+{
+
+
+
+$basetexture "console/intro"
+$vertexcolor 1
+$no_fullbright 1
+$ignorez 1
+}

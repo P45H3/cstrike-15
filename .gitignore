@@ -1,0 +1,22 @@
+# Files to ignore when considering what GIT should commit.
+
+*.suo
+*.user
+*.sln.docstates
+*.obj
+*.pch
+*.tlog
+*.log
+*.scc
+*.exp
+*.ilk
+*.lastbuildstate
+vc100.pdb
+ipch
+*.sdf
+*.opensdf
+*.idb
+*.vcproj
+*.pdb
+*.map
+*.tmp

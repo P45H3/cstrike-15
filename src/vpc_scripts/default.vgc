@@ -1,0 +1,18 @@
+//-----------------------------------------------------------------------------
+//	DEFAULT.VGC
+//
+//	Configurations for all Source(TM) Projects
+//-----------------------------------------------------------------------------
+
+////////////////
+// Game Names //
+////////////////
+
+$Games
+{
+	"CSTRIKE15"
+}
+
+$Include "vpc_scripts\projects.vgc"
+$Include "vpc_scripts\groups.vgc"
+

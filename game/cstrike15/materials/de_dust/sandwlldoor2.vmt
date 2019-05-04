@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_dust/SandWllDoor2"
+	"$surfaceprop" "wood"
+	"$detail" "detail/dt_wood" 
+}
