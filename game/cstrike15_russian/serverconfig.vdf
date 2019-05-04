@@ -1,0 +1,18 @@
+"ServerConfig"
+{
+	"bot_quota"		"5"
+	"bot_difficulty"		"1"
+	"bot_join_after_player"		"1"
+	"bot_allow_rogues"		"1"
+	"bot_allow_pistols"		"1"
+	"bot_allow_shotguns"		"1"
+	"bot_allow_sub_machine_guns"		"1"
+	"bot_allow_machine_guns"		"1"
+	"bot_allow_rifles"		"1"
+	"bot_allow_snipers"		"1"
+	"bot_allow_grenades"		"1"
+	"bot_defer_to_human"		"1"
+	"bot_join_team"		"any"
+	"bot_chatter"		"normal"
+	"map"		"de_dust2"
+}
