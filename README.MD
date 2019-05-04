@@ -1,1 +1,1 @@
-# Recreation of CS:GO Aplha on SE 2007
+# Recreation of CS:GO Alpha on SE 2007
