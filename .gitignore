@@ -1,5 +1,6 @@
 # Files to ignore when considering what GIT should commit.
 
+game
 *.suo
 *.user
 *.sln.docstates

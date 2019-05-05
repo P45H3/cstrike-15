@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client (cstrike15)", "game\client\client_cstrike15.vcproj", "{714F5A21-3264-4E4B-8D86-F73BF5B676E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server (cstrike15)", "game\server\server_cstrike15.vcproj", "{E273CE97-DDAF-4AAD-8006-5419322D095F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{714F5A21-3264-4E4B-8D86-F73BF5B676E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{714F5A21-3264-4E4B-8D86-F73BF5B676E3}.Debug|Win32.Build.0 = Debug|Win32
+		{714F5A21-3264-4E4B-8D86-F73BF5B676E3}.Release|Win32.ActiveCfg = Release|Win32
+		{714F5A21-3264-4E4B-8D86-F73BF5B676E3}.Release|Win32.Build.0 = Release|Win32
+		{E273CE97-DDAF-4AAD-8006-5419322D095F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E273CE97-DDAF-4AAD-8006-5419322D095F}.Debug|Win32.Build.0 = Debug|Win32
+		{E273CE97-DDAF-4AAD-8006-5419322D095F}.Release|Win32.ActiveCfg = Release|Win32
+		{E273CE97-DDAF-4AAD-8006-5419322D095F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
